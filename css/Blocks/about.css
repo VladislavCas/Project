@@ -12,11 +12,11 @@
     width: 489px;
     height: 504px;
     border-radius: 5px;
-    background: url("/img/content/gates.png") center center / cover no-repeat;
+    background: url("../../img/content/gates.png") center center / cover no-repeat;
 }
 
 .about__desc {
-    background: url("/img/content/mountains.png");
+    background: url("../../img/content/mountains.png");
     padding: 69px 81px;
     display: inline-block;
     max-width: 784px;
