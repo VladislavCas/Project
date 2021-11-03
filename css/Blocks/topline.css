@@ -2,7 +2,7 @@
     min-height: 410px;
     display: flex;
     flex-direction: column;
-    background: #001821 url(/img/backgrounds/headline\ 1.png) right 49% top no-repeat;
+    background: #001821 url(../../img/backgrounds/headline\ 1.png) right 49% top no-repeat;
 }
 
 .top-line__container  {
