@@ -80,33 +80,33 @@
 }
 
 .social__item--icon-telegram {
-    background-image: url(/img/icons/telegram.png);
+    background-image: url(../../img/icons/telegram.png);
 }
 
 .social__item--icon-telegram:hover {
-    background-image: url(/img/icons/th.png);
+    background-image: url(../../img/icons/th.png);
 }
 
 .social__item--icon-vk {
-    background-image: url(/img/icons/vk.png);
+    background-image: url(../../img/icons/vk.png);
 }
 
 .social__item--icon-vk:hover {
-    background-image: url(/img/icons/vkh.png);
+    background-image: url(../../img/icons/vkh.png);
 }
 
 .social__item--icon-fb {
-    background-image: url(/img/icons/f.png);
+    background-image: url(../../img/icons/f.png);
 }
 
 .social__item--icon-fb:hover {
-    background-image: url(/img/icons/f2h.png);
+    background-image: url(../../img/icons/f2h.png);
 }
 
 .social__item--icon-insta {
-    background-image: url(/img/icons/in.png);
+    background-image: url(../../img/icons/in.png);
 }
 
 .social__item--icon-insta:hover {
-    background-image: url(/img/icons/inh.png);
+    background-image: url(../../img/icons/inh.png);
 }
