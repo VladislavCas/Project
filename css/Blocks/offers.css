@@ -1,0 +1,134 @@
+.section__offers_title-container {
+    display: flex;
+}
+
+.section__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.section__title-icon {
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__offers {
+    margin-bottom: 125px;
+}
+
+.section__offers_title-container {
+    margin-bottom: 41px;
+}
+
+.offer {
+    min-height: 449px;
+    background: white;
+    border-radius: 4px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer__item {
+    width: calc(100% / 3 - 18px);
+}
+
+.offers__item:last-child {
+    margin-right: 0px;
+}
+
+
+.offer__header {
+    min-height: 150px;
+    margin-bottom: 3px;
+    overflow: hidden;
+}
+
+.offer__header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.offer__content {
+    padding: 23px 22px 28px 22px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.offer__title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.offer__conditions-cell {
+    display: flex;
+    margin-right: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 1.75;
+}
+
+.offer__icon {
+    margin-right: 5px;
+}
+
+
+.offer__conditions {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 42px;
+    margin-bottom: 24px;
+    padding-left: 5px;
+}
+
+.offer__text {
+    margin-bottom: 28px;
+    color: #303030;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.offer__conditions-cell:last-child {
+    margin-right: 0px;
+}
+
+.offer__btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2px;
+    margin-top: auto;
+}
+
+.btn__offer {
+    border: 1px solid #F5170E;
+    border-radius: 35px;
+    padding: 16px 29px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    color: #F5170E;
+    font-weight: 700;
+}
+
+.btn_active {
+    background: #F5170E;
+    color: white;
+}
+
+.btn__offer:hover {
+    background: #F5170E;
+    color: white;
+}

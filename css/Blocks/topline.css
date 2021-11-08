@@ -1,0 +1,62 @@
+.top__line {
+    min-height: 410px;
+    display: flex;
+    flex-direction: column;
+    background: #001821 url(../../img/backgrounds/headline\ 1.png) right 49% top no-repeat;
+}
+
+.top-line__container  {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.page-title-services {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 43px;
+}
+
+.page-title-reviews {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 63px;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__link {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item::after {
+    content: "/";
+    margin: 0 2px 0 2px;
+}
+
+.breadcrumbs__item:last-child {
+    content: none;
+}
+
+.breadcrumbs__item:last-child::after {
+    display: none;
+}
+
+.breadcrumbs__link--active {
+    font-weight: 700;
+}
