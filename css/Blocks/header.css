@@ -1,0 +1,130 @@
+.header {
+    position: relative;
+    margin-bottom: 0px;
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align--right {
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.header__col--align--left {
+    justify-content: flex-end;
+}
+
+.logo {
+    display: flex;
+}
+.logo_image {
+    max-width: 100%;
+}
+
+.menu {
+    display: flex;
+    margin-left: 79px;
+}
+.contacts {
+    font-style: normal;
+    text-align: right;
+    letter-spacing: 0px;
+}
+.menu__list {
+    display: flex;
+}
+.menu__item {
+    margin-right: 55px;
+    transition: ease-in 0.2s;
+}
+.menu__item:last-child {
+    margin-right: 0px;
+}
+.menu__item:hover {
+    color: #DA0100;
+}
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.contacts__dropdown-title {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.contacts__schedule {
+    font-size: 13px;
+    text-decoration: underline;
+    position: relative;
+    color: #98A4A8;
+    line-height: 1;
+}
+
+.contacts__schedule:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.contacts__schedule_wrap {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contacts__schedule_wrap:hover .dropdown {
+    opacity: 1;
+    left: initial;
+    right: 0;
+}
+
+.dropdown {
+    padding:13px 18px 18px;
+    background: #EDEDED;
+    border-radius: 5px;
+    color: #1E1F20;
+    font-size: 13px;
+    font-weight: 600;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: -9999px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    text-align: start;
+    margin-top: 1px;
+
+}
+
+.dropdown__days {
+    font-weight: 700;
+}
+
+.dropdown::before {
+    content: '';
+    height: 32px;
+    width: 100%;
+    position: absolute;
+    top: -30px;
+}
+
+.dropdown::after {
+    content: '';
+    position: absolute;
+    border: 20px solid transparent;
+    border-bottom-color: #EDEDED;
+    border-top-width: 0;
+    top: -12px;
+    right: 30px;
+}

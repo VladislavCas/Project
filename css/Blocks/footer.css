@@ -1,0 +1,133 @@
+.footer__container {
+    margin-top: auto;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col--align--right {
+    align-items: flex-end;
+}
+
+.footer__col--align--left {
+    align-items: flex-start;
+}
+
+.footer-main {
+    padding-top: 45px;
+    padding-bottom: 36px;
+}
+
+.footer-inner {
+    padding-top: 48px;
+    padding-bottom: 33px;
+}
+
+.footer-container__content {
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.menu__footer {
+    display: flex;
+    margin-left: 79px;
+}
+
+.contacts__footer {
+    font-style: normal;
+    text-align: right;
+    letter-spacing: 0px;
+}
+
+.contacts__info {
+    font-size: 11px;
+    font-weight: 400;
+    color: #9A9A9A;
+    border-bottom: 10px;
+}
+
+.socials {  
+    display: flex;
+    margin-right: 64px;
+}
+
+.social__link {
+    width: 36px;
+    height: 36px;
+    margin-right: 46px;
+    position: relative;
+}
+
+.socials__link:last-child {
+    margin-right: 0px;
+ }
+
+.social__link::before {
+    content:'';
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.social__link::after {
+    content:'';
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.social__link:hover::before {
+    opacity: 0;
+}
+
+.social__link:hover::after {
+    opacity: 1;
+}
+
+.social__link--icon-telegram::before {
+    background: url(../../img/icons/css_sprites.png) -122px -10px;
+}
+
+.social__link--icon-telegram::after {
+    background: url(../../img/icons/css_sprites.png) -10px -122px;
+}
+
+.social__link--icon-vk::before {
+    background: url(../../img/icons/css_sprites.png) -122px -66px;
+}
+
+.social__link--icon-vk::after {
+    background: url(../../img/icons/css_sprites.png) -66px -66px;
+}
+
+.social__link--icon-fb::before {
+    background: url(../../img/icons/css_sprites.png) -10px -10px;
+}
+
+.social__link--icon-fb::after {
+    background: url(../../img/icons/css_sprites.png) -10px -66px;
+}
+
+.social__link--icon-insta::before {
+    background: url(../../img/icons/css_sprites.png) -66px -10px;
+}
+
+.social__link--icon-insta::after {
+    background: url(../../img/icons/css_sprites.png) -66px -122px;
+}
